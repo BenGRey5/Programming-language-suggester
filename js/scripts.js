@@ -27,7 +27,7 @@ function checkRadio() {
     
     document.getElementById(recommendation).classList.remove('hidden');
 
-    document.addEventListener("change", recommendation)
+    
 }
 
 
