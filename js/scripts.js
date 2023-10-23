@@ -10,9 +10,9 @@ function checkRadio() {
 
     if (question3 === 'true' && question4 === 'false' && question5 === 'false') {
         recommendation = 'cSharp';
-    } else if (question3 === 'false' && question4 === 'true' && question5 === 'false') {
-        recommendation = 'javaScript';
     } else if (question3 === 'false' && question4 === 'false' && question5 === 'true') {
+        recommendation = 'javaScript';
+    } else if (question3 === 'false' && question4 === 'true' && question5 === 'false') {
         recommendation = 'python';
     } else {
         recommendation = 'neither';
